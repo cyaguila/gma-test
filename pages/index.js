@@ -276,9 +276,9 @@ export default function Index({ allCars, preview, webSettings }) {
             <div className={s.heroBackground}>
               {
                 imageVideoUrl === "image" ? 
-                <img src="/t10/background.png" className="w-full h-full"/>
+                <img src="/background.png" className="w-full h-full"/>
               :
-                <Hero url={[{src: '/t10/car-prev.mp4'}]} 
+                <Hero url={[{src: '/car-prev.mp4'}]} 
                 controls={false} 
                 loop={true}              
                 />

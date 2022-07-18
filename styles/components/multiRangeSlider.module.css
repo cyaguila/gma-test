@@ -1,0 +1,74 @@
+.slider {
+    position: relative;
+    width: 100%;
+}
+
+.slider__track , 
+.slider__range {
+    @apply rounded h-1 absolute
+
+}
+
+.slider__track {
+    @apply bg-slate-300 w-full z-10
+}
+
+.slider__range {
+    @apply z-20 bg-teal-300
+}
+
+/* Thumb styling */
+
+.thumb,
+.thumb::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.thumb {
+    pointer-events: none;
+    position: absolute;
+    height: 0;
+    width: 210px;
+    outline: none;
+}
+
+.thumb__zindex3 {
+    @apply z-30
+}
+
+.thumb__zindex4 {
+    @apply z-40
+}
+
+.thumb__zindex5 {
+    @apply z-50
+}
+
+/* For Chrome browsers */
+.thumb::-webkit-slider-thumb {
+    background-color: #f1f5f7;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px #ced4da;
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    margin-top: 4px;
+    pointer-events: all;
+    position: relative;
+  }
+  
+  /* For Firefox browsers */
+  .thumb::-moz-range-thumb {
+    background-color: #f1f5f7;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 1px #ced4da;
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    margin-top: 4px;
+    pointer-events: all;
+    position: relative;
+  }

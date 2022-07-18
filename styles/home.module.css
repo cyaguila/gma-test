@@ -1,0 +1,126 @@
+/* Start of Hero Styling */
+.heroGrid {
+    display: grid;
+    grid-template-rows: [row1-start] 
+    10% [row1-end row2-start] 90% [row2-end];
+    /* grid-template-columns: 1fr; */
+    @apply grid-cols-1 xl:grid-cols-3 
+}
+
+.heroBackground {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    z-index: 1;
+    
+}
+
+.heroOverlay {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+
+    /* @apply flex flex-col items-center justify-center space-y-4 */
+
+}
+
+.blurb {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    z-index: 3;
+    @apply flex flex-col justify-center space-y-4 px-20 py-6 lg:py-0
+
+}
+
+.heroButton {
+    @apply text-white font-light
+
+}
+
+/* End of Hero Styling */
+
+
+/* Navbar styling */
+.navTop {
+    /* display: grid; */
+    z-index: 99;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    align-items: flex-start;
+    width: 100%;
+
+}
+
+/* End of Navbar styling */
+
+
+
+/* Start of Search by styling */
+
+.select {
+    color: white;
+    @apply bg-gray-800 border-b-4 border-pink-400 text-2xl md:text-4xl lg:text-6xl
+}
+
+
+.makeGrid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    /* background-color: black; */
+    @apply lg:grid-cols-1 xl:grid-cols-3
+}
+
+.leftCol {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    /* display: flex;
+    flex-direction: column; */
+    @apply px-10 space-y-8 p-10 text-white xl:col-start-2 xl:col-end-3;
+}
+
+.makeSelect {
+    display: flex;
+    flex-direction: column;
+}
+
+.makeSelect select {
+    color: black;
+    background-color: white;
+    @apply p-4 rounded-md;
+}
+
+.makeSelect label {
+    
+    @apply lg:text-2xl pb-2;
+}
+
+
+
+
+
+/* End of Search by styling */
+
+@screen lg {
+    .heroGrid, .makeGrid {
+        /* grid-template-rows: 1fr; */
+        /* grid-template-columns: 1fr 1fr 1fr; */
+    }
+
+    /* .leftCol {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    } */
+
+
+}
+
+

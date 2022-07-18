@@ -1,0 +1,2 @@
+React-player: https://www.npmjs.com/package/react-player
+Node-fetch

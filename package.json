@@ -1,0 +1,48 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.8.5",
+    "@portabletext/react": "^1.0.3",
+    "@sanity/image-url": "^1.0.1",
+    "@sanity/webhook": "^1.0.2",
+    "@tailwindcss/forms": "^0.5.2",
+    "@trendyol-js/react-carousel": "^3.0.0",
+    "aws-sdk": "^2.1164.0",
+    "axios": "^0.27.2",
+    "classnames": "2.3.1",
+    "date-fns": "2.28.0",
+    "dotenv": "^16.0.1",
+    "emailjs-com": "^3.2.0",
+    "lodash.throttle": "^4.1.1",
+    "next": "^12.1.6",
+    "next-sanity": "0.5.0",
+    "next-videos": "^1.4.0",
+    "node-fetch": "^3.2.5",
+    "nodemailer": "^6.7.5",
+    "nouislider": "^15.6.0",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.32.1",
+    "react-player": "^2.10.1",
+    "react-scroll": "^1.8.7",
+    "rsuite": "^5.15.1",
+    "swiper": "^8.3.1",
+    "swr": "^1.3.0",
+    "vercel": "^27.1.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.2",
+    "eslint": "^8.16.0",
+    "eslint-plugin-react": "^7.30.0",
+    "postcss": "8.4.7",
+    "tailwindcss": "^3.0.23"
+  }
+}

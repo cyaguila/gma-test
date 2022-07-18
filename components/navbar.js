@@ -64,27 +64,27 @@ export default function Navbar() {
           style={active ? backDrop : empty}
         >
           <div className={`${ active ? backDrop+' bg-gray-800/90 p-4 rounded-sm' : ''} lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto`}>
-            <Link href='/t10/server/pages'>
+            <Link href='/'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-pink-600 hover:text-white '>
                 Home
               </a>
             </Link>
-            <Link href='/t10/server/pages/inventory.html'>
+            <Link href='/inventory'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-pink-600 hover:text-white'>
                 Inventory
               </a>
             </Link>
-            <Link href='/t10/server/pages/blogs.html'>
+            <Link href='/blogs'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-pink-600 hover:text-white'>
                 Blog
               </a>
             </Link>
-            <Link href='/t10/server/pages/about.html'>
+            <Link href='/about'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-pink-600 hover:text-white'>
                 About us
               </a>
             </Link>
-            <Link href='/t10/server/pages/contact.html'>
+            <Link href='/contact'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-pink-600 hover:text-white'>
                 Contact us
               </a>

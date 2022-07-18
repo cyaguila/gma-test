@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/prop-types */
-import Image from 'next/Image'
 
 export default function SectionImage({subtitle, title, blurb, buttonText, imageSrc, alt, active}) {
     const visible = "relative overflow-hidden lg:flex lg:py-28"
